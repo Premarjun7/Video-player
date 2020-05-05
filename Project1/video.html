@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>THIS IS FOR VIDEO</title>
+    <link rel="stylesheet" href="progress.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="video.css">
+    </head>
+    <body>
+       <div><strong>Here is your video</strong></div>
+       <br>
+       <div >
+           <video id="nammu"class="w-75 h-75" >
+               <source src="hd.mkv">
+           </video>
+       </div>
+       <div class="controls">
+        <div>
+            <button style="font-size: 24px" id="play"> <i class="fa fa-play-circle "></i></button>
+        <button style="font-size: 24px" id="stop"><i class="fa fa-stop-circle "></i></button>
+        <button style="font-size: 24px" id="forward"><i class="fa fa-forward"></i></button>
+        <button style="font-size: 24px" id="back"><i class="fa fa-backward"></i></button>
+        </div>
+        <input type="range" class="progress " id="newone" min="0" max="100" step="0.5" value="0" >
+        <span class="timestamp" id="timetrap" >00:00</span>
+       </div>
+        <script src="video.js"></script>
+    </body>
+</html>
