@@ -1,0 +1,22 @@
+#namu{
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.form-group input:focus{
+border-color:yellow;
+}
+.form-group.success input{
+    border-color: green;
+}
+.form-group.error input{
+    border-color: red;
+}
+.form-group small{
+    color: orange;
+    visibility: hidden;
+}
+.form-group.error small{
+    visibility: visible;
+}
